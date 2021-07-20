@@ -1,0 +1,6 @@
+{% autoescape off %}
+
+Hi {{user.first_name}},
+this is the otp for the atticavation {{otp}} http://{{ domain }}{% url 'activate' uidb64=uid  token=token %}
+{% endautoescape %}
+
